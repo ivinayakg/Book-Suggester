@@ -1,3 +1,5 @@
 # Book-Suggester
 
-### Simple react app which suggest you books based on the catergory you select on the web app.
+### Simple react app which suggests you books based on the category you select on the web app.
+
+- created and hoted on code sandbox

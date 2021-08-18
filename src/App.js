@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function App() {
   const [active, setActive] = useState([books.Fiction]);
 
-  var catergories = Object.keys(books);
+  var categories = Object.keys(books);
 
   const onClickHandler = (item) => {
     setActive(books[item]);
@@ -19,11 +19,11 @@ export default function App() {
           <h1>Goodbooks</h1>
         </div>
         <p>Checkout my favorite books.Select a genre to get started</p>
-        <div className="catergory">
-          {catergories.map((item) => {
+        <div className="category">
+          {categories.map((item) => {
             return (
               <button
-                className="catergory-btn"
+                className="category-btn"
                 onClick={() => {
                   onClickHandler(item);
                 }}
