@@ -20,6 +20,10 @@ var JavaScript = [
   {
     name: "You Don't Know JS",
     rating: "3.5"
+  },
+  {
+    name: "Effective Javascript",
+    rating: "4.3"
   }
 ];
 var Fiction = [
@@ -30,6 +34,10 @@ var Fiction = [
   {
     name: "Shiva Trilogy",
     rating: "5"
+  },
+  {
+    name: "The Book Thief",
+    rating: "4.4"
   }
 ];
 
